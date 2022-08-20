@@ -1,3 +1,3 @@
-# ks_repo
+# ns_repo
 #DevOps
-#By Kartikeya
+#By ikbal
