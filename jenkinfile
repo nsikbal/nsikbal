@@ -14,11 +14,7 @@ pipeline {
 		sh 'hostname'
             }
             }
-        stage('Git Clone') {
-            steps {
-		git credentialsId: 'github1', url: 'https://github.com/nsikbal/nsikbal.git'
-            }
-            }
+
         stage('Sonar Scan') {
             steps {
 		sh 'mvn sonar:sonar \
